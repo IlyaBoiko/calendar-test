@@ -1,0 +1,60 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modalForm {
+    width: 300px;
+    position: relative;
+    background: #fff;
+    margin: 10% auto;
+    border-radius: 16px;
+    padding: 20px;
+}
+.modalClose {
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+
+.modalDate_label,
+.modalDesc_label,
+.modalTitle_label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.modalInput {
+    border-bottom: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+}
+
+.modalInput_date {
+    display: block;
+    margin-bottom: 12px;
+}
+
+
+.modalAdd {
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 12px;
+}
